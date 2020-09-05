@@ -1,0 +1,41 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.theme{
+	background: linear-gradient(#9b59b6,#8e44ad);
+	color: white!important;
+}
+
+.themebtn
+{
+	background: linear-gradient(#2ecc71,#27ae60);
+	color: white!important;
+}
+
+.imgs
+{
+	height: 100vh;
+}
+
+h4
+{
+	text-decoration: underline;
+}
+
+.mylink,.fa-arrow-right,.mycard,li{
+	transition: all 0.5s ease-in-out;
+}
+
+.mylink:hover > .fa-arrow-right
+{
+	transform: translateX(15px);
+}
+
+.mycard:hover,li:hover
+{
+	transform: translateY(-15px);
+}
+
